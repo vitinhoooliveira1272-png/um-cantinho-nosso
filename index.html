@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fff0f4">
+<title>Pra minha Isabella ♡</title>
+<style>
+:root{--pink:#f7c9d6;--rose:#b84f70;--ink:#4c3540;--cream:#fffaf7;--soft:#fff0f4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,#fff3f6,#fffaf7 42%,#fff0f4);color:var(--ink);font-family:ui-rounded,"Trebuchet MS",system-ui,sans-serif;line-height:1.65}
+main{max-width:850px;margin:auto;padding:18px}
+.hero{min-height:85vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:28px 16px;position:relative}
+.kitty{font-size:clamp(48px,10vw,78px);filter:drop-shadow(0 5px 0 #f8dce5);animation:float 3s ease-in-out infinite}
+h1{font-size:clamp(2.3rem,8vw,4.6rem);line-height:1.05;margin:16px 0;color:#a94263;letter-spacing:-.04em}
+h2{font-size:clamp(1.5rem,5vw,2rem);line-height:1.2;color:#a94263}
+p{font-size:1.05rem}.sub{max-width:530px;font-size:1.1rem}
+.pill{border:0;background:#b84f70;color:white;padding:13px 21px;border-radius:999px;font-weight:800;font-size:1rem;cursor:pointer;box-shadow:0 5px 0 #8f3854;transition:transform .15s}
+.pill:hover{transform:translateY(-2px)}.pill:active{transform:translateY(2px);box-shadow:0 2px 0 #8f3854}
+section{margin:20px 0 30px;padding:25px;background:rgba(255,255,255,.78);border:1px solid #f4d7e0;border-radius:25px;box-shadow:0 10px 30px #a84c6810}
+.center{text-align:center}.eyebrow{color:#b84f70;font-size:.8rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}
+figure{margin:0;background:#fff;border-radius:18px;padding:8px;box-shadow:0 5px 16px #a84c6815;transform:rotate(var(--tilt,1deg))}
+figure:nth-child(even){--tilt:-1.5deg}figure img{display:block;width:100%;height:230px;object-fit:cover;border-radius:12px}
+figcaption{font-size:.86rem;text-align:center;padding:8px 4px 3px;color:#805565}
+.note{background:#fff4f7;border-left:4px solid #e5a2b7;border-radius:0 15px 15px 0;padding:15px 17px}
+.promise{display:grid;gap:10px;margin:20px 0}.promise div{background:#fff7f9;padding:13px;border-radius:14px}
+.catline{text-align:center;font-size:1.6rem;margin:12px}
+.hidden{display:none}.answer{margin-top:15px;background:#fff4f7;border-radius:15px;padding:15px}
+footer{text-align:center;padding:25px 10px 45px;color:#956878;font-size:.9rem}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-8px) rotate(3deg)}}
+@media(max-width:520px){main{padding:12px}.gallery{gap:8px}figure{padding:6px}figure img{height:175px}section{padding:19px;border-radius:21px}}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="kitty" aria-label="gatinho fofo">🐱💗</div>
+    <div class="eyebrow">um recadinho do seu namorado</div>
+    <h1>Ei, minha<br>Isabella ♡</h1>
+    <p class="sub">Fiz esse cantinho pra te lembrar de uma coisa importante… e também porque eu sou meio bobo e gosto de inventar essas coisas pra você. 🥹</p>
+    <button class="pill" onclick="document.querySelector('#recadinho').scrollIntoView({behavior:'smooth'})">Tá bom, pode falar 👀</button>
+    <p style="font-size:.85rem;color:#b1788b">ps.: tem gatinhos envolvidos. Você foi avisada.</p>
+  </header>
+
+  <section class="center">
+    <div class="eyebrow">capítulo 1 · nós dois</div>
+    <h2>Olha a gente, que bonitinhos 🥹</h2>
+    <p>Algumas lembranças minhas favoritas com você. E sim, eu provavelmente vou querer tirar mais umas 800 fotos ainda.</p>
+    <div class="gallery">
+      <figure><img src="fotos/foto-01.jpeg" alt="Nós dois sorrindo juntos"><figcaption>Dois bobinhos felizes 💗</figcaption></figure>
+      <figure><img src="fotos/foto-02.jpeg" alt="Selfie nossa no banco"><figcaption>Eu gosto de estar pertinho de você.</figcaption></figure>
+      <figure><img src="fotos/foto-03.jpeg" alt="Abraço nosso"><figcaption>Meu tipo favorito de abraço 🫶</figcaption></figure>
+      <figure><img src="fotos/foto-04.jpeg" alt="Nós dois sorrindo abraçados"><figcaption>Eu guardaria esses momentos num potinho.</figcaption></figure>
+      <figure><img src="fotos/foto-05.jpeg" alt="Selfie nossa"><figcaption>Você sendo linda e eu tentando acompanhar 😂</figcaption></figure>
+      <figure><img src="fotos/foto-06.jpeg" alt="Mais uma foto nossa"><figcaption>Mais uma lembrança pra coleção.</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="recadinho">
+    <div class="eyebrow">capítulo 2 · falando sério agora</div>
+    <h2>Me desculpa, meu amor. ❤️</h2>
+    <p>Isa, eu queria te pedir desculpas de coração pelo que falei. Eu disse por impulso que a Isabella por quem eu me apaixonei não faria aquilo, e entendo que isso tenha te machucado. Parece que eu coloquei em dúvida quem você é, quando você não merece se sentir assim comigo.</p>
+    <p>Eu me apaixonei pelo seu jeito, pelo seu sorriso, pelo seu carinho, pelas suas brincadeiras e por essa pessoa que você é de verdade. Não quero que você sinta que precisa medir cada coisa que faz ou deixar de ser você mesma por medo de me magoar.</p>
+    <p>Minhas inseguranças são algo que eu preciso aprender a cuidar melhor. Não espero mudar de uma hora pra outra, mas quero me esforçar de verdade: pensar antes de falar, conversar sem te acusar e tentar entender o que eu sinto sem transformar isso num peso pra você.</p>
+    <p>Não tô fazendo esse site pra você ter que me perdoar agora ou pra apagar o que aconteceu. Só queria demonstrar meu carinho, reconhecer meu erro e te dizer que você importa muito pra mim.</p>
+    <div class="note"><strong>Eu não quero que você deixe de ser você pra caber nos meus medos.</strong> Quero aprender a lidar melhor com eles, enquanto a gente constrói algo bom juntos. 💗</div>
+  </section>
+
+  <section>
+    <div class="eyebrow">capítulo 3 · combinado?</div>
+    <h2>Pequenas atitudes, não promessas mágicas 🐾</h2>
+    <div class="promise">
+      <div>🌱 Vou tentar entender meus sentimentos antes de falar no impulso.</div>
+      <div>💬 Vou conversar com você com carinho, sem fazer você se sentir culpada por ser quem é.</div>
+      <div>🫶 Vou respeitar seu espaço e escutar o seu lado, mesmo quando eu estiver inseguro.</div>
+      <div>🐱 E vou continuar tentando te fazer rir com minhas ideias meio duvidosas.</div>
+    </div>
+    <p class="center">Não prometo ser perfeito. Prometo levar a sério o esforço de melhorar.</p>
+    <div class="catline">🐈 🐈‍⬛ 💞 🐈</div>
+  </section>
+
+  <section class="center">
+    <div class="eyebrow">última coisinha</div>
+    <h2>Posso te mostrar um gatinho? 🥺</h2>
+    <p>Escolhe com carinho, porque os dois são fofos — igual você, mas não espalha que eu falei isso.</p>
+    <button class="pill" onclick="showCat('um')">Quero ver o primeiro 🐱</button>
+    <button class="pill" style="margin:8px;background:#d8849e;box-shadow:0 5px 0 #ad6179" onclick="showCat('dois')">O segundo! 💗</button>
+    <div id="cat-um" class="answer hidden">🐱💗 Um gatinho mandou dizer que você é muito especial. Ele também pediu sachê, mas eu não sei se isso ajuda no pedido de desculpas.</div>
+    <div id="cat-dois" class="answer hidden">🐈‍⬛💕 Dois gatinhos se abraçando porque carinho é bom, abraço é melhor e conversar com amor vale muito a pena.</div>
+  </section>
+
+  <footer>
+    Feito com carinho, algumas fotos e um namorado que ainda está aprendendo. ❤️<br>
+    <strong>Eu te amo, Isabella.</strong>
+  </footer>
+</main>
+<script>
+function showCat(which){
+ document.getElementById('cat-um').classList.toggle('hidden',which!=='um');
+ document.getElementById('cat-dois').classList.toggle('hidden',which!=='dois');
+}
+</script>
+</body>
+</html>
